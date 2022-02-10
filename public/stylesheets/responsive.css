@@ -1,0 +1,342 @@
+@media only screen and (min-width: 1024px) and (max-width:1600px)
+{
+
+    .firstnav
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width:1023px)
+{
+.second
+    {
+        display: none;
+    }
+}
+@media only screen and (min-width: 220px) and (max-width:499px)
+{
+    .heading4
+{
+    margin-left: 2%;
+    width: 90%;
+}
+.heading5
+{
+    margin-left: 2.5%;
+    width: 90%;
+
+}
+
+    .upperButton
+    {
+        width: 15%!important;
+        margin-left: 43%;
+        margin-bottom: 1rem;
+    }
+    .upperButton
+    {
+        background-color: #212529;
+    }
+    .lastdiv
+    {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+    .lastdiv>p
+    {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}
+
+
+@media only screen and (min-width: 320px)
+{
+    .headertext12
+    {
+        text-align: center;
+    }
+    
+    .Headerlogo>img
+    {
+        margin: auto;
+      display: table-column-group;
+      margin-top: 20px;
+    }
+   .HeaderFont
+   {
+       text-align: center;
+       font-size: 20px;
+   }
+   .justifytext
+   {
+       margin-left: 80%;
+   }
+   
+   .headertel
+   {
+       margin: auto;
+   }
+   .headertel a
+{
+    padding: 20%;
+    font-size: 20px;   
+}
+.footerbutton
+{
+    margin-left: 14%;
+    margin-bottom: 4%;
+    padding: 30px 60px 30px 60px;
+    font-size: 24px;
+
+}
+.footerbutton1
+{
+    margin-left: 14%;
+    margin-bottom: 4%;
+    padding: 30px 68px 30px 60px;
+    font-size: 25px;
+}
+.lasttext1>p  
+{
+    margin-left: 0rem;
+}
+
+}
+@media only screen and (min-width: 320px) and (max-width:1010px)
+{
+    .mainheading3>p
+{
+   text-align: center;
+}
+.lasttext2>p
+{
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+    .mainheading2>h2
+{
+    text-align: center;
+    margin-left: 0%;
+}
+.mainheading2>h5
+{
+    text-align: center;
+    margin-left: 0%;
+}
+
+.heading31>h5
+{
+    margin-left: 0%;
+    text-align: center;
+}
+    .heading4
+    {
+        margin-left: 20%;
+    }
+    .heading5
+    {
+        margin-left: 8%;
+    }
+    .heading6>h2
+{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.heading6>p
+{
+    color:white;
+    margin-left: 7%;
+}
+.headinghonest
+    {
+        margin-left: 6%;
+        width: 90%!important;
+    } 
+    .headinghonest>h4
+    {
+        width: 90%;
+    
+    }
+.headinghonest>p
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        width: 90%;
+        font-size: 14px;
+    }
+    .heading11
+    {
+        width: 90%!important;
+        padding-left: 6%;
+    }
+    .heading12
+    {
+        width: 100%!important;
+        padding-left: 6%;
+    }
+    .autoheading7>h2
+    {
+        margin-left: 8%;
+        margin-top: 2rem;
+    }
+.autoheading7>p
+    {
+        width: 70%;
+        margin-left: 8%;
+
+    }
+    .imgautoglass
+{
+    width: 100%!important;
+
+} 
+.imgautoglass
+{
+    width: 100%!important;
+}
+.autotest
+{
+    text-align: left;
+    padding-left: 5%;
+}
+.autotest>h2
+{
+  
+    text-align: left;
+    margin-top: 2px;
+}
+.autotest1
+{
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+    border-right: transparent;
+}
+.autotest1>h3
+{
+    padding-left: 5%;
+}
+.autotest1>p
+{
+    padding-left: 5%;
+    padding-right: 3%;
+}
+.autotest1>button{
+
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+text-transform: uppercase;
+width: 98%;
+margin-left: 1%;
+}
+.autotest2
+{
+    margin-top: 5%;
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+
+}
+.autotest2>h3
+{
+    padding-left: 5%;
+}
+.autotest2>p
+{
+    padding-left: 5%;
+    font-family: Open Sans, sans-serif;
+    width: 90%;
+    line-height: 1cm;
+}
+.autotest2>button{
+    font-size: 20px;
+    width: 98%;
+    margin-left: 1%;
+    }
+
+    .autotest3
+    {
+        border-right: transparent;
+        border-bottom: 1px solid black;
+        padding-bottom: 3rem;
+    }
+    .autotest3>h3
+    {
+        padding-left: 5%;
+    }
+    .autotest3>p
+    {
+        padding-left: 5%;
+    }
+.autotest3>button
+    {
+        font-size: 20px;
+        width: 98%;
+        margin-left: 1%;
+    }
+.autotest4
+{
+        border-bottom: 1px solid black;
+        padding-bottom: 3rem;
+}
+
+    .autotest4>h3
+{
+    padding-top: 4rem;
+}
+.autotest4>p
+{
+    width: 90%;
+}
+.autotest4>button
+    {
+
+        font-size: 20px;
+        width: 98%;
+        margin-left: 1%; 
+}
+}
+@media only screen and (min-width: 320px) and (max-width:1010px)
+{
+    .RequestButton2
+    {
+        margin-top: 100px!important;
+    }
+    .dive
+    {
+        margin-top: -100px;
+    }
+    .fakecopy
+    {
+        display: block;
+    }
+    .fake1copy
+    {
+        display:none;
+    }
+    .formfiled2>input
+    {
+        margin-top: 20px;
+    }
+    .adressdiv
+    {
+        background-color: #282b31;
+        margin-left: 1%;
+        width: 95%!important;
+    }
+    .addressmap
+    {
+        width: 90%!important;
+        margin-top: 3rem;
+        margin-left: 4%;
+    }
+    .addressmap iframe
+    {
+        width: 100%;
+        height: 400px;
+    }
+}
+

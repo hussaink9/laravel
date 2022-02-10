@@ -1,0 +1,1735 @@
+
+*/
+    {
+        font-family: Open Sans, sans-serif;
+    }
+/* Header Css  */
+
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #aab1a7;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+    border-bottom:1px solid #aab1a7;
+    padding-bottom: 25px;
+  }
+  
+  .topnav a:hover {
+    color: white;
+    border-bottom: 2px solid white;
+
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+.fakecopy
+{
+    display: none;
+}
+
+
+.HeaderMain
+    {
+        background-image: url('/images/mainpage/headerimg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .backopeacty
+    {
+        background-color: black;
+        opacity: 0.3;
+    }
+/* .Headerlogo
+    {
+        width: auto!important;
+    }
+.Headerlogo>img
+    {
+        margin-left: 50px;
+    } */
+.headertext1
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        margin-left: 0%;
+    }
+.headertext1>h3
+{ 
+    width: 100%;
+    margin-top: 10px;
+}
+.headertext1>p
+{
+    font-size: 14px;  
+}
+.headertext12
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        margin-left: 0%;
+    }
+.headertext12>h2
+{ 
+    width: 100%;
+    margin-top: 10px;
+}
+.headertext12>p
+{
+    font-size: 16px;  
+}
+.HeaderFont>a
+{
+   text-decoration: none;
+   color:white;
+   height: 50px;
+   font-size: 25px;
+}
+.HeaderFont>a :hover
+{
+    color: red;
+}
+.nav-link
+{
+    text-align: center;
+}
+.headertel
+{
+    box-sizing: border-box;
+    
+}
+.headertel>a
+{
+    text-decoration: none;
+    color: white;    
+}
+.headertel>a:hover {
+   color: red;
+  }
+  #mymenubutton
+  {
+      color: white;
+      font-size: 35px;
+      text-shadow: 2px 2px red;
+  }
+  .fa-solid 
+  {
+      font-size: 50px;
+      color: rgb(255, 0, 0);
+  }
+
+.navbar-nav1
+{
+    margin-left: 35%;
+    
+}
+.navbr
+{
+    margin-left: 40%!important;
+}
+.navbar-nav
+{
+    margin-left: 0%;
+    
+}
+.navbar-nav :hover
+{
+  border-radius: 2px solid white;
+    
+}
+.longnavbar li:hover
+{
+color: white;
+font-weight: bold;
+}
+.nabar
+{
+        display: none;
+        position: relative;
+        background-color: rgb(34, 148, 194);
+        min-width: 100%;
+        font-size: 12px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+}
+.nabar a {
+    color: black;
+    padding: 7px 5px;
+    text-decoration: none;
+    display: block;
+    /* padding-left: 5px; */
+    border-top: 1px solid white;
+    margin-left: 15%;
+  }
+  .nabar a:hover {
+      background-color: #80d5f7;
+  }
+.jqueryte
+{
+    background-color: #252a30;
+    width: 100%;
+}
+.navbar-expand-xl
+{
+    padding-top: 10px;
+}
+#collapsibleNavbar
+{
+    font-size: 20px;
+    width: 100%;
+}
+.nav-link
+{
+    color:rgb(179, 173, 173)!important;
+    font-size: 16px;
+}
+.nav-link:hover
+{
+    color:white!important;
+    font-size: 20px;
+}
+.heading1
+{
+
+    font-family: Open Sans, sans-serif;
+    color:white;
+}
+.heading2
+{
+    color: rgb(6, 133, 172);   
+}
+.RequestButton>button
+{
+position: absolute;
+margin-top: -2.7%;
+color: white;
+background-color: red;
+border-color: red;
+font-family: Open Sans, sans-serif;
+/* padding-top:30px; */
+}
+.RequestButton button:hover
+{
+    background-color: #27adda;
+    border:3px solid #27adda;
+    color: white;
+}
+.fa-angle-down
+{
+    color: white;
+    font-size: 40px;
+}
+.dive{
+    width:60px;
+    height:60px;
+    margin:auto;
+    border: 1px solid rgb(6, 144, 224,0.8);
+    background-color: rgba(6, 144, 224, 0.8);
+    border-radius:50px;
+    animation-name: example;
+    position: absolute;
+    margin-top: 10px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 2px; }
+    15%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 8px; }
+    25%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 14px; }
+    50%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 18px;}
+    65%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 14px;}
+    75%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 8px;}
+    100%{ outline-style: solid;outline-color: rgb(77, 166, 224, 0.4);outline-width: 2px;}
+}
+.mainheading2
+{
+    width: 100%;
+}
+.mainheading2>h2
+{
+    margin-left: 12%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: Open Sans, sans-serif;
+}
+.mainheading2>h5
+{
+    margin-left: 12%;
+    color: rgb(0, 139, 219);
+    font-family: Open Sans, sans-serif;
+    margin-top: -5px;
+}
+.mainheading3>p
+{
+    width: 70%;
+   margin-left: 12%;
+   color:black;
+}
+.heading31>h5
+{
+    margin-left: 12.9%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    /* width: 100%; */
+}
+.heading4
+{
+    margin-left: 12.5%;
+    width: 48%;
+    font-size: 15px;
+    line-height: 4ch;
+    color: black;
+}
+.heading4>ul
+{
+    list-style-type: none;
+    
+}
+.heading5>ul
+{
+    list-style-type: none;
+    margin-left: 12.5%;
+    line-height: 4ch;
+    color: black;
+}
+.backgroundcolor
+{
+    background-color: #252a30;
+    
+}
+.heading6>h2
+{
+    color: rgb(0, 143, 199);
+    margin-left: 25%;
+    font-family: Open Sans, sans-serif;
+    margin-top: 15%;
+    line-height:2ch;
+}
+.heading6>p
+{
+    font-family: Open Sans, sans-serif;
+    color:white;
+    margin-left: 25%;
+}
+.mainimg
+    {
+        width: 50%;
+        float: left;  
+    }
+.heading7>h2
+    {
+        color: rgb(0, 143, 199);
+        margin-left: 12%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 5%;
+        line-height:2ch; 
+    }
+.heading7>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        margin-left: 12%;
+        width: 60%;
+    }
+.headinghonest
+    {
+        padding-left: 5%;
+        width: 45%!important;
+        color: rgb(0, 143, 199);
+        font-family: Open Sans, sans-serif;
+    }
+.headinghonest>h4
+    {
+        width: 90%;
+    
+    }
+.headinghonest>p
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        width: 90%;
+        font-size: 14px;
+    }
+.heading11
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        width: 20%;
+        list-style-type: none;
+        line-height: 4ch;
+        font-size: 14px;
+    }
+.heading11>ul
+    {
+        list-style-type: none;
+    }
+.heading12
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        width: 20%;
+        list-style-type: none;
+        line-height: 4ch;
+        font-size: 14px;
+    }
+.heading12>ul
+    {
+        list-style-type: none;
+    }
+.heading122
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        width: 100%;
+        list-style-type: none;
+        line-height: 4ch;
+        font-size: 12px;
+    }
+.algintext
+    {
+        width: 90%;
+        margin-left: 3.8rem!important;
+    }
+.heading122>p
+    {
+        color: white;
+        font-family: Open Sans, sans-serif;
+        padding-left: 5.5%;
+    }
+.reviewcon
+    {
+        background-color: rgb(226, 226, 226);
+        margin-top: -24px;
+        color: black;
+    }
+    .lasttext21
+    {
+        color: black;
+    }
+.heading13
+    {
+        text-align: center;
+        color: black;
+    }
+.lasttext
+    {
+        align-self: center;
+        text-align: center;
+        list-style-type: none;
+        color: black;
+    }
+.fa-star
+    {
+        border-color: yellow;
+        color: yellow;
+    }
+.lasttext1>p
+{
+    color: black;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+.lasttext2>p
+{
+    color: black;
+    margin-left: -4rem;
+}
+.backgroudimg2
+{
+    background-image: url('/images/mainpage/12q.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.backgroundopecty
+{
+    background-color: black;
+    padding-bottom: 4.3rem;
+    opacity: 0.5;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(34, 148, 194);
+    min-width: 250px;
+    font-size: 15px;
+    opacity: 0.9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 7px 5px;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+    border-top: 1px solid white;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+.nav-linkk
+{
+    color: #252a30;
+}
+.nav-linkk:hover
+{
+    color: #fffbfb!important;
+    border-bottom: 2px solid white;
+}
+
+
+.mainlastbuttton
+{
+    text-align: center;
+}
+.mainlastbuttton>button
+{
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+}
+.mainlastbuttton button:hover
+{
+    background-color: #27adda;
+    border:3px solid #27adda;
+    color: white;
+}
+.footerbutton{
+    color: red;
+    background-color: transparent;
+    font-family: Open Sans, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+    border:1px solid red;
+    padding: 40px;
+
+}
+.footerbutton a {
+    text-decoration: none;
+}
+.footerbutton1{
+    color: red;
+    background-color: transparent;
+    font-family: Open Sans, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+    border:1px solid red;
+    padding: 40px;
+}
+.footerbutton1 a{
+    text-decoration: none;
+}
+.footerspan
+{
+    font-size: 12px;
+    margin-left: -44%;
+    color:white;
+}
+
+.footerbutton1:hover
+{
+    background-color: rgb(26, 82, 238,0.8);
+    font-weight: 500;
+}
+.footerbutton1 a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+.footerbutton:hover
+{
+    background-color: rgb(26, 82, 238,0.6);
+    color: rgb(255, 0, 0);
+}
+.footerbutton a:hover
+{
+    color: rgb(255, 0, 0);
+}
+
+.lastdiv{
+    /* width: 95%!important; */
+}
+.lastdiv>p
+{
+ width: 100%;
+ padding-left: 10%;
+ font-size: 10px;
+}
+.upperButton>a>i
+{
+    font-size: 50px;
+    color:white
+}
+/* Auto-glass page css started  */
+.tireservicestext>h2
+    {
+        color: rgb(0, 0, 0);
+        margin-left: 13%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 10%;
+        width: 80%;
+        line-height:2ch;
+    }
+.imgautoglass
+{
+    width: 600px!important;
+
+} 
+.imgautoglass
+{
+    width: 500px!important;
+}
+.autoheadi
+{
+    width: 40%!important;
+}
+.autoheading6>h2
+{
+    color: rgb(0, 143, 199);
+    margin-left: 15%;
+    font-family: Open Sans, sans-serif;
+    margin-top: 10%;
+    line-height:2ch;
+}
+.autoheading6>p
+{
+    font-family: Open Sans, sans-serif;
+    color:white;
+    margin-left: 15%;
+}
+.autoheading7>h2
+    {
+        color: rgb(0, 143, 199);
+        margin-left: -5%;
+        font-family: Open Sans, sans-serif;
+        line-height:2ch; 
+    }
+.autoheading7>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        width: 70%;
+        margin-left: -5%;
+
+    }
+.autoglasstext6>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        list-style-type: none;
+        padding-left: 15%;
+        font-size: 18px;
+        line-height: 0.9cm;   
+    }
+.autoglasstext7>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        font-size: 18px;
+        list-style-type: none;
+        line-height: 0.9cm;    
+    }
+.autoglasstext8>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 7%;
+        margin-top: 2.5rem;
+    }
+.autoglasstext8>p
+    {
+        padding-left: 7%;
+        color: white;
+        width: 91%;
+        line-height: 0.7cm;
+        font-family: Open Sans, sans-serif;
+        margin-top: 2rem;
+    }
+.autoglasstext5>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 0, 0);
+        padding-left: 6%;
+        margin-bottom: 2rem;
+    }
+.autoglasstext5>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        list-style-type: none;
+        line-height: 0.9cm;  
+        margin-left: 9%; 
+    }
+/* About page css start  */
+.aboutmain
+{
+    background-color: rgb(226, 226, 225);
+}
+.abouttext>h6
+{
+    color: blue;
+    margin-left: 15%;
+    padding-top: 40px;
+    font-family: Open Sans, sans-serif;
+}
+.abouttext>h3
+{
+    font-family: Open Sans, sans-serif;
+    margin-left: 14.8%;
+    margin-top: -3px;
+}
+.abouttext>p
+{
+    font-family: Open Sans, sans-serif;
+    margin-left: 14.8%;
+    width: 70%;
+    padding-bottom: 4rem;
+    line-height: 0.9cm;
+
+}
+.abouttext1>h3
+{
+    font-family: Open Sans, sans-serif;
+    margin-left: 14.8%;
+}
+.abouttext1>h4
+{
+    font-family: Open Sans, sans-serif;
+    margin-left: 14.8%;
+ 
+}
+.abouttext1>p
+{
+    font-family: Open Sans, sans-serif;
+    margin-left: 14.8%;
+    width: 70%;
+    padding-bottom: 2.5rem;
+    line-height: 0.9cm;
+}
+.abouttestp
+    {
+        font-family: Open Sans, sans-serif;
+        margin-left: 14.8%;
+        width: 70%;
+        padding-bottom: 5rem;
+        line-height: 0.9cm;
+    }
+    /* auto page css start   */
+.automain
+    {
+        background-color: rgb(226, 226, 225);;
+    }
+.autotext>h3
+    {
+        margin-left: 10%;
+        font-family: Open Sans, sans-serif;
+        font-weight: bold;
+    }
+.autotext1>p
+    {
+        margin-left: 20.3%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 2rem;
+        line-height: 0.9cm;
+    }
+.autoimg>img
+    {
+        width: 86%;
+        height: 400px;
+    }
+.autotext3>p
+    {
+        margin-left: 10.3%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 1rem;
+        line-height: 0.9cm;
+        width: 83%;
+    }
+.autotext2>h4
+    {
+        margin-left: 10%;
+        font-family: Open Sans, sans-serif;
+        font-weight: bold;
+    }
+.autotext3>ul
+    {
+        margin-left: 10.6%;
+        font-family: Open Sans, sans-serif;
+        line-height: 0.9cm;
+        list-style-type: none;
+        margin-top: -20px;
+    }
+.autocontainer3
+    {
+        background-color:#2e333a ;
+
+    }
+.autotext5>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 11%;
+    }
+.autotext5>p
+    {
+        padding-left: 11%;
+        color: white;
+        width: 91%;
+        line-height: 0.7cm;
+    }
+    .autotext5>h5
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 11%;
+        margin-top: 1.5rem;
+    }
+.autotext6>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        list-style-type: none;
+        padding-left: 22%;
+        line-height: 0.9cm;   
+    }
+.autotext7>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:white;
+        list-style-type: none;
+        line-height: 0.9cm;    
+    }
+.autotext8>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 11%;
+        margin-top: 2.5rem;
+    }
+.autotext8>p
+    {
+        padding-left: 11%;
+        color: white;
+        width: 91%;
+        line-height: 0.7cm;
+        font-family: Open Sans, sans-serif;
+
+        margin-top: 2rem;
+    }
+
+    /* Faq page css starts  */
+.Faqmain
+    {
+        background-color: rgb(226, 226, 225);;
+    }
+.Faqtext1>h3
+    {
+        color:rgb(0, 102, 255);
+        font-family: Open Sans, sans-serif;
+        text-align: center;
+    }
+.Faqtext1>h2
+    {
+        color:rgb(0, 0, 0);
+        font-family: Open Sans, sans-serif;
+        text-align: center;
+        margin-top: -0.5rem;
+    }
+.Faqtext1>h5
+    {
+        color:rgb(0, 102, 255);
+        font-family: Open Sans, sans-serif;
+        margin-left: 11.9%;
+        margin-top: 4rem;
+    }
+.Faqtext1>p
+    {
+        font-family: Open Sans, sans-serif;
+        margin-left: 15%;
+        width: 70%;
+    }
+/* brake service page css start  */
+.brakemain
+    {
+        background-color: rgb(226, 226, 225);;
+    }
+.braketext>h2
+{
+    color: rgb(0, 0, 0);
+    margin-left: 15%;
+    font-family: Open Sans, sans-serif;
+    margin-top: 10%;
+    width: 60%;
+    line-height:2ch;
+}
+.braketext>p
+{
+    font-family: Open Sans, sans-serif;
+    color:rgb(0, 0, 0);
+    margin-left: 15%;
+    line-height: 0.9cm;
+    
+}
+.braketext1>h5
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 0, 0);
+        padding-left: 8%;
+        margin-top: 1.5rem;
+    }
+.braketext2>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        list-style-type: none;
+        padding-left: 18%;
+        line-height: 0.9cm;   
+    }
+.braketext21>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        list-style-type: none;
+        line-height: 0.9cm;   
+        padding-left: 3%;
+    }
+.braketext3>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 0, 0);
+        padding-left: 8.5%;
+        margin-top: 2.5rem;
+    }
+.braketext3>p
+    {
+        padding-left: 8.5%;
+        color: rgb(0, 0, 0);
+        width: 91%;
+        line-height: 0.8cm;
+        font-family: Open Sans, sans-serif;
+
+        margin-top: 2rem;
+    }
+.braketext4>h2
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 7.5%;
+    }
+.braketext4>p
+    {
+        padding-left: 7.5%;
+        color: rgb(205, 230, 226);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+.autotext5>h5
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 11%;
+        margin-top: 1.5rem;
+    }
+.braketext5>ul
+{
+    font-family: Open Sans, sans-serif;
+    color:rgb(205, 230, 226);
+    list-style-type: none;
+    padding-left: 18%;
+    line-height: 0.9cm;   
+}
+.braketext6>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(205, 230, 226);
+        list-style-type: none;
+        line-height: 0.9cm;   
+    }
+.braketext7>p
+    {
+        padding-left: 7.5%;
+        color: rgb(205, 230, 226);
+        width: 91%;
+        line-height: 0.9cm;
+        margin-top: 1.3rem;
+    }
+.braketext7>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 7.5%;
+        margin-top: 2.5rem;
+    }
+    /* engin rapair page css start  */
+.enginetext>h2
+    {
+        color: rgb(0, 0, 0);
+        margin-left: 15%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 10%;
+        width: 80%;
+        line-height:2ch;
+    }
+.enginetext>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        margin-left: 15%;
+        line-height: 0.9cm;
+        
+    }
+.enginetext1>h2
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 7.5%;
+    }
+
+.enginetext1>p
+    {
+        padding-left: 7.5%;
+        color: rgb(205, 230, 226);
+        font-family: Open Sans, sans-serif;
+        width: 95%;
+        line-height: 0.9cm;
+    }
+.enginetext2>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 20.5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+.enginetext2>p
+    {
+        font-family: Open Sans, sans-serif;
+        padding-left: 20%;
+        color: rgb(205, 230, 226);
+        line-height: 0.9cm;
+    }
+.enginetext3>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 8.5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+.enginetext3>p
+    {
+        font-family: Open Sans, sans-serif;
+        padding-left: 7.5%;
+        color: rgb(205, 230, 226);
+        line-height: 0.9cm;
+        width: 80%;
+    }
+.enginetext4>h2
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 0, 0);
+        padding-left: 7.5%;
+        margin-bottom: 1rem;
+    }
+
+.enginetext4>p
+    {
+        padding-left: 7.5%;
+        color: rgb(0, 0, 0);
+        font-family: Open Sans, sans-serif;
+        line-height: 0.9cm;
+        width: 94%;
+    }
+    /* exhaust css start  */
+.eshausttext>h1
+    {
+        color: rgb(0, 0, 0);
+        margin-left: 13%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 10%;
+        width: 80%;
+        line-height:2ch;
+    }
+.eshausttext>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        margin-left: 13%;
+        line-height: 0.9cm;  
+    }
+.eshausttext1>h2
+    {
+        color: rgb(0, 166, 216);
+        margin-left: 6.5%;
+        font-family: Open Sans, sans-serif;
+        width: 80%;
+        margin-bottom: 1rem;
+        line-height:2ch;
+    }
+.eshausttext1>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        margin-left: 6.5%;
+        line-height: 0.9cm;
+    }
+    /* oilchange css start  */
+.eshausttext>h2
+    {
+        color: rgb(0, 0, 0);
+        margin-left: 13%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 10%;
+        width: 80%;
+        line-height:2ch;
+    }
+.OilChangetext1>h2
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 6.5%;
+        margin-bottom: 2rem;
+    }
+.OilChangetext1>p
+    {
+        padding-left: 6.5%;
+        color:rgb(208, 223, 218);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+.OilChangetext2>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        list-style-type: none;
+        padding-left: 17%;
+        line-height: 0.9cm;   
+    }
+.OilChangetext3>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        list-style-type: none;
+        line-height: 0.9cm;   
+    }
+    /* radiator-repair page css start  */
+.radiatortext>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+        padding-left: 6%;
+        margin-bottom: 2rem;
+    }
+.radiatortext>p
+    {
+        padding-left: 6.5%;
+        color:rgb(208, 223, 218);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+.radiatortext1>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+        padding-left: 6%;
+        margin-bottom: 2rem;
+    }
+.radiatortext1>p
+    {
+        padding-left: 6.5%;
+        color:rgb(208, 223, 218);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+.radiatortext2>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        list-style-type: none;
+        padding-left: 17%;
+        line-height: 0.9cm;   
+    }
+.radiatortext3>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        list-style-type: none;
+        line-height: 0.9cm;   
+    }
+/* tire rotation page css starts  */
+.tirerotationtext>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 17%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+.tirerotationtext>p
+    {
+        font-family: Open Sans, sans-serif;
+        padding-left: 17%;
+        color: rgb(160, 170, 169);
+        line-height: 0.9cm;
+    }
+.tirerotationtext1>h4
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 102, 255);
+        padding-left: 8.5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 90%;
+    }
+.tirerotationtext1>p
+    {
+        font-family: Open Sans, sans-serif;
+        padding-left: 7.5%;
+        color: rgb(160, 170, 169);
+        line-height: 0.9cm;
+        width: 90%;
+    }
+/* tire services css start  */
+.tireservicestext>h1
+    {
+        color: rgb(0, 0, 0);
+        margin-left: 13%;
+        font-family: Open Sans, sans-serif;
+        margin-top: 10%;
+        width: 80%;
+        line-height:2ch;
+    }
+.tireservicestext>p
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(0, 0, 0);
+        margin-left: 13%;
+        line-height: 0.9cm;  
+    }
+.tireservicestext>ul
+    {
+        margin-left: 13%;
+        list-style-type: none;
+        line-height: 1cm;  
+        font-size: 18px;
+    }
+.tireservicestext1>h2
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+        padding-left: 6%;
+        margin-bottom: 1rem;
+    }
+.tireservicestext1>p
+    {
+        padding-left: 6.5%;
+        color:rgb(208, 223, 218);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+.tireservicestext2>ul
+{
+    margin-left: 7%;
+    list-style-type: none;
+    color:rgb(208, 223, 218);
+    line-height: 1cm;  
+    font-size: 18px;
+}
+.tireservicestext3>h3
+    {
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+        padding-left: 6%;
+    }
+.tireservicestext3>p
+    {
+        padding-left: 6.5%;
+        color:rgb(208, 223, 218);
+        width: 91%;
+        line-height: 0.9cm;
+    }
+    /* transmission page css started  */
+
+.transmissiontext>h3
+    {
+        margin-left: 6.8%;
+        font-family: Open Sans, sans-serif;
+        font-weight: bold;
+    }
+.transmissiontext2>h2
+    {
+        margin-left: 6.8%;
+        font-family: Open Sans, sans-serif;
+        font-weight: bold;
+        color: rgb(0, 119, 216);
+        margin-bottom: 1.5rem;
+    }
+.transmissiontext2>p
+    {
+        margin-left: 6.9%;
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        line-height: 0.7cm;
+    }
+.transmissiontext3>h3
+    {
+        margin-left: 8%;
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+    }
+.transmissiontext3>p
+    {
+        margin-left: 8.5%;
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        line-height: 0.7cm;
+        width: 85%;
+        margin-top: 1rem;
+    }
+.transmissiontext4>h3
+    {
+        margin-left: 8%;
+        font-family: Open Sans, sans-serif;
+        color: rgb(0, 119, 216);
+    }
+.transmissiontext4>p
+    {
+        margin-left: 8.5%;
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        line-height: 0.7cm;
+        width: 85%;
+        margin-top: 1rem;
+    }
+.transmissiontext5>ul
+    {
+        margin-left: 19%;
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        line-height: 0.7cm;
+        list-style-type: none;
+        font-size: 16px;
+        line-height: 1cm;
+    }
+.transmissiontext6>ul
+    {
+        font-family: Open Sans, sans-serif;
+        color:rgb(208, 223, 218);
+        line-height: 0.7cm;
+        list-style-type: none;
+        font-size: 16px;
+        line-height: 1cm;
+    }
+    /* service page css started  */
+.serviceArea>h2
+    {
+        margin-top: 3rem;
+        text-align: center;
+        font-family: Open Sans, sans-serif;
+
+    }
+.serviceArea>p
+    {
+        text-align: center;
+        font-family: Open Sans, sans-serif;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 1rem;
+    }
+/* auto maentaince page start  */
+.autotest
+{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    color: rgb(0, 119, 216);
+}
+.autotest>h2
+{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    color: black;
+    margin-top: -2px;
+}
+.autotest1
+{
+    border-right: 1px solid black;
+}
+.autotest1>h3
+{
+    padding-left: 20%;
+    font-family: Open Sans, sans-serif;
+}
+.autotest1>p
+{
+    padding-left: 20%;
+    font-family: Open Sans, sans-serif;
+    line-height: 1cm;
+}
+.autotest1>button{
+
+color: #e6e6e6;
+cursor: pointer;
+background: #4b89fc;
+font-family: Open Sans, sans-serif;
+font-size: 17px;
+font-weight: 600;
+letter-spacing: 2px;
+line-height: 55px;
+padding: 0 20px;
+text-align: center;
+text-transform: uppercase;
+width: 75%;
+margin-left: 20%;
+}
+.autotest1 button:hover
+{
+    background-color: #ff0000;
+    border:3px solid #ff0000;
+    color: white;
+}
+.autotest2>h3
+{
+    padding-left: 5%;
+    font-family: Open Sans, sans-serif;
+}
+.autotest2>p
+{
+    padding-left: 5%;
+    font-family: Open Sans, sans-serif;
+    width: 80%;
+    line-height: 1cm;
+}
+.autotest2>button{
+
+    color: #e6e6e6;
+    cursor: pointer;
+    background: #4b89fc;
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 55px;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75%;
+    margin-left: 5%;
+    }
+    .autotest2 button:hover
+{
+    background-color: #ff0000;
+    border:3px solid #ff0000;
+    color: white;
+}
+.autotestrow
+{
+    margin-top: 4rem!important;
+}
+.autotest3
+    {
+        border-right: 1px solid black;
+    }
+    .autotest3>h3
+    {
+        padding-left: 20%;
+        font-family: Open Sans, sans-serif;
+    }
+    .autotest3>p
+    {
+        padding-left: 20%;
+        font-family: Open Sans, sans-serif;
+        line-height: 1cm;
+    }
+.autotest3>button{
+
+color: #e6e6e6;
+cursor: pointer;
+background: #4b89fc;
+font-family: Open Sans, sans-serif;
+font-size: 17px;
+font-weight: 600;
+letter-spacing: 2px;
+line-height: 55px;
+padding: 0 20px;
+text-align: center;
+text-transform: uppercase;
+width: 75%;
+margin-left: 20%;
+}
+.autotest3 button:hover
+{
+    background-color: #ff0000;
+    border:3px solid #ff0000;
+    color: white;
+}
+.autotest4>h3
+{
+    padding-left: 5%;
+    font-family: Open Sans, sans-serif;
+}
+.autotest4>p
+{
+    padding-left: 5%;
+    font-family: Open Sans, sans-serif;
+    width: 80%;
+    line-height: 1cm;
+}
+.autotest4>button{
+
+    color: #e6e6e6;
+    cursor: pointer;
+    background: #4b89fc;
+    font-family: Open Sans, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 55px;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75%;
+    margin-left: 5%;
+    }
+    .autotest4 button:hover
+{
+    background-color: #ff0000;
+    border:3px solid #ff0000;
+    color: white;
+}
+
+/* serviceArea page starts  */
+.serviceArea1
+{
+    text-align: center;
+}
+.serviceArea1>button
+{
+    background: #202020;
+    font-family: Open Sans, sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    padding: 0 15px;
+}
+/* contactus page css started  */
+.contacttext3
+{
+    background-color:#282b31;
+    width:55%!important;
+    margin-left: 8%!important;
+    float: left;
+}
+
+.inputname
+{
+    margin-left:20%;
+    width:90%;
+}
+.inputname>input
+{
+    width:90%;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 10px;
+}
+.inputname>input
+{
+    width:90%;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 10px;
+}
+.contacttext4
+{
+    width: 50%!important;
+    border-right: 2px solid white;
+}
+
+.contacttext4>h3
+{
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.contacttext4>a
+{
+    color: white;
+    text-decoration: none;
+}
+.contacttext5
+{
+    width: 40%!important;
+}
+.contacttext5>h4
+{
+    color: white;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.contacttext5>a
+{
+    color: white;
+    text-decoration: none;
+}
+.contacttext6
+{
+margin-top: 48px;
+}
+/* fairfieldtext page css start  */
+.fairfieldtext
+{
+    font-family: Open Sans, sans-serif;
+   
+}
+.fairfieldtext>p
+{
+   font-size: 17px;
+   width: 90%;
+   font-family: Open Sans, sans-serif;
+}
+.hrefftext
+{
+    color:white;
+    text-decoration:none;
+}
+.differentialtext
+{
+    list-style-type: none;
+    line-height: 1cm;
+}
+.hreffservice
+{
+    color:white;
+    text-decoration:none;
+}
+.hreffservice:hover
+{
+    color: White;
+}
+.hreffservice1
+{
+    text-decoration:none;
+    color: black;
+}
+.contactus1 h2
+{
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    color: black;
+}
+.formfiled1
+{
+    width: 90%!important;
+    margin-left: 5%;
+}
+.formfiled2>input
+{
+font-size: 23px;
+height: 50px;
+background-color: #d0d6ce;
+color: black;
+}
+.formfiled3
+{
+    width: 90%!important;
+    margin-left: 5%;
+}
+.formfiled4>textarea
+{
+background-color: #d0d6ce;
+color: black;
+width: 100%;
+margin-top: 10px;
+}
+.formfiled5 button
+{
+    background-color: #27adda;
+    border-color: #27adda;
+    font-style: italic;
+    font-family: Open Sans, sans-serif;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 25px;
+    padding-top:12px;
+    padding-bottom:12px;
+    margin-top: 12px;
+}
+.formfiled5 button:hover
+{
+    background-color: #da3327;
+    border-color: #d33131;
+    color: white;
+}
+.formfiled6 input
+    {
+    font-size: 20px;
+    height: 45px;
+    background-color: #d0d6ce;
+    color: black;
+    margin-top: 10px;
+    }
+    .adressdiv
+    {
+        background-color: #282b31;
+        margin-left: 1%;
+        width: 60%!important;
+        float: left;
+        font-family: Open Sans, sans-serif;
+    }
+    .adressdiv1
+    {
+        border-right: 1px solid white;
+    }
+    .adressdiv1 h3
+    {
+        color: white;
+    }
+    .adressdiv2 h4
+    {
+        color: white;
+    }
+    .adressdiv2 p
+    {
+        color: white;
+    }
+    .adressdiv22
+    {
+            margin-top: -15px;
+    }
+    .adressdiv2 h3
+    {
+            color: white;
+            margin-top: 5px;
+    }
+    .adressdiv2 img
+    {
+            margin-top: 10px;
+    }
+    .addressmap
+    {
+        /* width: 35%!important; */
+        float: inline-end;
+        margin-top: 3rem;
+    }
